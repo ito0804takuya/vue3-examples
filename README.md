@@ -1,4 +1,4 @@
-# vue3-todo-app
+# vue3-examples
 
 ## Project setup
 ```
