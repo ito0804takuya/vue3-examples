@@ -6,6 +6,7 @@ import VIfAndVFor from '../views/VIfAndVFor.vue'
 import VModel from '../views/VModel.vue'
 import SimpleComponent from '../views/SimpleComponent.vue'
 import FetchData from '../views/FetchData.vue'
+import TreeView from '../views/TreeView.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -42,7 +43,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/fetch-data',
     name: '',
     component: FetchData
+  },
+  {
+    path: '/tree',
+    name: '',
+    component: TreeView
   }
+  // あと、やるやつ
+  // todo mvc
+
+  // crud
+  //
 ]
 
 const router = createRouter({
