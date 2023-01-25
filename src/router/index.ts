@@ -7,6 +7,8 @@ import VModel from '../views/VModel.vue'
 import SimpleComponent from '../views/SimpleComponent.vue'
 import FetchData from '../views/FetchData.vue'
 import TreeView from '../views/TreeView.vue'
+import TodoMVS from '../views/TodoMVS.vue'
+import CrudSample from '../views/CrudSample.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -48,12 +50,17 @@ const routes: Array<RouteRecordRaw> = [
     path: '/tree',
     name: '',
     component: TreeView
+  },
+  {
+    path: '/todo',
+    name: '',
+    component: TodoMVS
+  },
+  {
+    path: '/crud',
+    name: '',
+    component: CrudSample
   }
-  // あと、やるやつ
-  // todo mvc
-
-  // crud
-  //
 ]
 
 const router = createRouter({
