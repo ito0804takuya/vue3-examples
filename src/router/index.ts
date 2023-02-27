@@ -9,6 +9,7 @@ import FetchData from '../views/FetchData.vue'
 import TreeView from '../views/TreeView.vue'
 import TodoMVS from '../views/TodoMVS.vue'
 import CrudSample from '../views/CrudSample.vue'
+import PlaySample from '../views/PlaySample.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -60,6 +61,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/crud',
     name: '',
     component: CrudSample
+  },
+  {
+    path: '/playsample',
+    name: '',
+    component: PlaySample
   }
 ]
 
