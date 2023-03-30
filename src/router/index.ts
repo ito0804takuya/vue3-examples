@@ -10,6 +10,8 @@ import TreeView from '../views/TreeView.vue'
 import TodoMVS from '../views/TodoMVS.vue'
 import CrudSample from '../views/CrudSample.vue'
 import PlaySample from '../views/PlaySample.vue'
+import EmitSample from '../views/EmitSample.vue'
+import VModelSample from '../views/VModelSample.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -66,6 +68,16 @@ const routes: Array<RouteRecordRaw> = [
     path: '/playsample',
     name: '',
     component: PlaySample
+  },
+  {
+    path: '/emit',
+    name: '',
+    component: EmitSample
+  },
+  {
+    path: '/vmodel-component',
+    name: '',
+    component: VModelSample
   }
 ]
 
