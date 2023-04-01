@@ -92,7 +92,7 @@ function removeTodo (todo) {
   </section>
 </template>
 
-<style>
+<style scoped>
 /* これどういうこと？ */
-@import "https://unpkg.com/todomvc-app-css@2.4.1/index.css";
+/* @import "https://unpkg.com/todomvc-app-css@2.4.1/index.css"; */
 </style>

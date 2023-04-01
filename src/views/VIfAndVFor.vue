@@ -1,11 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-const list = ref([1, 2, 3])
-
-const show = ref(true)
-</script>
-
 <template>
   <button @click="list.push(list.length + 1)">
     値を追加
@@ -33,3 +25,11 @@ const show = ref(true)
     リストが空な状態
   </p>
 </template>
+
+<script setup>
+import { ref } from 'vue'
+
+const list = ref([1, 2, 3])
+
+const show = ref(true)
+</script>

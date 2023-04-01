@@ -1,19 +1,3 @@
-<script setup>
-import { ref } from 'vue'
-
-const message = ref('タイトル')
-
-const isRed = ref(true)
-function toggleRed () {
-  isRed.value = !isRed.value
-}
-
-const textColor = ref('green')
-function toggleColor () {
-  textColor.value = textColor.value === 'green' ? 'blue' : 'green'
-}
-</script>
-
 <template>
   <p>
     <!-- v-bind でHTMLのtitle属性を動的な変数に -->
@@ -33,7 +17,23 @@ function toggleColor () {
   </p>
 </template>
 
-<style>
+<script setup>
+import { ref } from 'vue'
+
+const message = ref('タイトル')
+
+const isRed = ref(true)
+function toggleRed () {
+  isRed.value = !isRed.value
+}
+
+const textColor = ref('green')
+function toggleColor () {
+  textColor.value = textColor.value === 'green' ? 'blue' : 'green'
+}
+</script>
+
+<style scoped>
 .red {
   color: red;
 }

@@ -12,6 +12,7 @@ import CrudSample from '../views/CrudSample.vue'
 import PlaySample from '../views/PlaySample.vue'
 import EmitSample from '../views/EmitSample.vue'
 import VModelSample from '../views/VModelSample.vue'
+import ComputedSample from '../views/ComputedSample.vue'
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -78,6 +79,11 @@ const routes: Array<RouteRecordRaw> = [
     path: '/vmodel-component',
     name: '',
     component: VModelSample
+  },
+  {
+    path: '/computed',
+    name: '',
+    component: ComputedSample
   }
 ]
 

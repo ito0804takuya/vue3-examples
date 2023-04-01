@@ -8,14 +8,17 @@
 
   <div :class="{red: isRed}" :font-size="size">bind</div>
 </template>
+
 <script setup lang="ts">
 import VModelComponent from '@/components/VModelComponent.vue'
 import { ref } from 'vue'
+
 const text = ref('ほげ')
 const isRed = ref(true)
 const size = '40px'
 </script>
-<style>
+
+<style scoped>
 .red{
   color: red;
 }
